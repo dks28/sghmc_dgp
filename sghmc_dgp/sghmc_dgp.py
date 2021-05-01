@@ -1,8 +1,8 @@
 import tensorflow as tf
 import numpy as np
 
-from sghmc_base import BaseModel
-import conditionals
+from .sghmc_base import BaseModel
+from . import conditionals
 from scipy.cluster.vq import kmeans2
 
 
