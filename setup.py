@@ -7,6 +7,6 @@ setup(
 	url="git@github.com:dks28/sghmc_dgp.git",
 	author="Marton Havasi et al.",
 	license="MIT",
-	packages=["sghmc_dgp"],
+	packages=["deepgp_sghmc"],
 	zip_safe=False
 )
