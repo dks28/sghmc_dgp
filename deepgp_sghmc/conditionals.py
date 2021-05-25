@@ -1,6 +1,6 @@
 # Credit to GPflow
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 
 def base_conditional(Kmn, Kmm, Knn, f, *, full_cov=False, q_sqrt=None, white=False):
