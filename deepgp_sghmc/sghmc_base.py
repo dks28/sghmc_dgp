@@ -1,5 +1,6 @@
 import numpy as np
 import tensorflow.compat.v1 as tf
+tf.disable_eager_execution()
 
 
 class BaseModel(object):

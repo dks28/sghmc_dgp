@@ -1,6 +1,7 @@
 # Credit to GPflow
 
 import tensorflow.compat.v1 as tf
+tf.disable_eager_execution()
 
 
 def base_conditional(Kmn, Kmm, Knn, f, *, full_cov=False, q_sqrt=None, white=False):

@@ -1,4 +1,5 @@
 import tensorflow.compat.v1 as tf
+tf.disable_eager_execution()
 import numpy as np
 
 from .sghmc_base import BaseModel
